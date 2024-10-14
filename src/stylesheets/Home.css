@@ -35,6 +35,16 @@
     border-color: rgb(255, 255, 255);
   }
 }
+@keyframes slideInFromRight {
+  0% {
+      transform: translateX(100%); 
+      opacity: 0; 
+  }
+  100% {
+      transform: translateX(0); 
+      opacity: 1; 
+  }
+}
 
 #profession {
   margin-right: 50px;
@@ -44,7 +54,7 @@
 
 @media (max-width: 768px) {
   #name {
-    font-size: 45px; /* Make the font smaller on smaller screens */
+    font-size: 40px; /* Make the font smaller on smaller screens */
   }
   #profession {
     font-size: 1.5em;
