@@ -1,0 +1,70 @@
+.toolbox-section {
+  padding: 100px 20px;
+  background-color: #272727;
+  color: #020202;
+  border-bottom: solid 1px white;
+}
+
+.toolbox-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 70px;
+  opacity: 0; /* Hidden initially */
+  transform: translateY(50px); /* Initial position for slide down */
+  transition: all 0.5s ease-out; /* Smooth transition for both animations */
+}
+
+/* Slide-up animation class */
+.slide-up {
+  opacity: 1;
+  transform: translateY(0); /* Slide-up effect */
+}
+
+/* Slide-down animation class */
+.slide-down {
+  opacity: 0;
+  transform: translateY(50px); /* Slide-down effect */
+}
+
+.skills-category {
+  flex: 1;
+  padding: 20px;
+  background-color: #d8d8d8;
+  border-radius: 8px;
+  box-shadow: 5px 5px 4px 0px rgb(123, 123, 123);
+}
+
+.header {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 15px;
+}
+
+.heading {
+  font-weight: bold;
+}
+
+.tool {
+  display: inline-block;
+  font-weight: normal;
+  color: #3f3e3e;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .toolbox-container {
+    flex-direction: column; /* Stacks the sections on smaller screens */
+  }
+}

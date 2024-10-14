@@ -1,0 +1,75 @@
+/* Climb Section Styling */
+.climb-section {
+  padding: 100px 20px;
+  background-color: #2b2a2a;
+  border-bottom: 1px solid white;
+}
+
+.climb-header {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  text-align: center;
+  color: rgb(144, 143, 143);
+}
+.experience-container {
+  margin: 70px;
+  display: flex;
+  flex-direction: column; /* Stack experiences vertically */
+  align-items: flex-start; /* Align items to the start */
+  position: relative; /* For absolute positioning of lines */
+}
+
+.experience-card {
+  position: relative;
+  width: 100%; /* Full width for each card */
+  max-width: auto; /* Limit width */
+  padding: 20px;
+  background-color: #f0f0f0df;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px; /* Space between experience cards */
+}
+
+/* Vertical line */
+.vertical-line {
+  position: absolute;
+  left: -20px; /* Adjust left position as needed */
+  top: 0;
+  bottom: 0;
+  width: 2px; /* Width of vertical line */
+  background-color: #fafafa; /* Color of vertical line */
+}
+
+/* Horizontal line */
+.horizontal-line {
+  position: absolute;
+  left: -15px; /* Align with the vertical line */
+  width: 20px; /* Length of the horizontal line */
+  height: 2px; /* Height of the horizontal line */
+  background-color: #ffffff; /* Color of horizontal line */
+  top: 20px; /* Position it at the top of the experience card */
+}
+
+/* Experience Title and Details */
+.experience-title {
+  color: black;
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.organization {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.duration {
+  font-size: 1rem;
+  color: #929191;
+}
+
+.description {
+  font-size: 1rem;
+  color: #333;
+  margin-top: 10px;
+}

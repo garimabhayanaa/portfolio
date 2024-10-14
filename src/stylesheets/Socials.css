@@ -1,0 +1,33 @@
+.connect-section {
+  padding: 100px 20px;
+  background-color: #1d1d1d;
+  border-top: solid 1px white;
+}
+
+.header {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.connect-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Individual Connection Item */
+.connect-item {
+  text-align: center;
+}
+.logos {
+  height:50px;
+  width: 50px;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.logos:hover {
+  box-shadow: 3px 3px 10px rgba(156, 155, 155, 0.888); /* Adjusted to add some blur and color */
+  transform: scale(1.1);
+}
