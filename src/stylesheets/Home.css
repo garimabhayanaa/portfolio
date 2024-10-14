@@ -44,7 +44,10 @@
 
 @media (max-width: 768px) {
   #name {
-    font-size: 50px; /* Make the font smaller on smaller screens */
+    font-size: 45px; /* Make the font smaller on smaller screens */
+  }
+  #profession {
+    font-size: 1.5em;
   }
   
   .last-name {
