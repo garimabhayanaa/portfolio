@@ -27,7 +27,7 @@ function Home() {
         {isMobile ? <br /> : " "}
         <span className="last-name">Bhayana /&gt;</span>
       </h1>
-      <h2 id="profession">AI/ML and Full Stack Software Engineer</h2>
+      <h2 id="profession">AI/ML Engineer | Full Stack Developer</h2>
     </div>
   );
 }
