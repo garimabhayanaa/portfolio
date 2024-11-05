@@ -1,6 +1,6 @@
 .creations-section {
   padding: 100px 20px;
-  background-color: #242424;
+  background: linear-gradient(to bottom, #1c1c1c, #4f4f4f, #686868, #1c1c1c);
   border-bottom: solid white 1px;
 }
 
