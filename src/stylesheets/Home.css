@@ -2,7 +2,7 @@
   color: white;
   text-align: right;
   height: 500px;
-  background-color: rgb(29, 29, 29);
+  background: linear-gradient(to bottom, #1c1c1c, #4f4f4f, #686868, #1c1c1c);
   border-bottom: 1px solid white;
 }
 
