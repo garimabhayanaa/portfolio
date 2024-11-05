@@ -4,7 +4,7 @@ const experiences = [
   {
     title: 'Contributor',
     organization: 'GirlScript Summer of Code',
-    duration: 'October 2024 ( one month )',
+    duration: 'October - November 2024',
     description: 'Played a key role in integrating AI solutions and designing logos for multiple projects, significantly improving both the functionality and visual appeal of the initiatives. I improved the project\'s productivity and overall user experience by contributing to AI-driven features. My work in logo design also increased brand awareness, guaranteeing a more polished and unified presentation.',
   },
   {
