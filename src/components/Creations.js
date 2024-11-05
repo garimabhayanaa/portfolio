@@ -17,6 +17,12 @@ const projects = [
     link: 'https://garimabhayanaa.github.io/PeriodPal/',
   },
   {
+    title: 'AI Text Summarizer',
+    brief: 'AI-powered tool for summarizing lengthy text using Facebook\'s BART Large CNN model.',
+    header: 'Efficient Summarization of Complex Texts',
+    description: 'An intelligent application that leverages Facebook\'s BART Large CNN model, accessed via Hugging Face, to condense long articles, reports, and documents into concise summaries. By inputting any text, you can quickly receive a clear, coherent summary that retains the essential points and key information of the original content. The AI Text Summarizer provides a seamless experience, allowing users to gain insights from lengthy texts without reading the entire document, making it ideal for researchers, students, and professionals alike.',
+    link: 'https://text-summarizer--ai.vercel.app/',
+  },{
     title: 'Tree Visualizer',
     brief: 'Tool for visualizing binary trees, binary search trees and heaps.',
     header: 'Interactive visualisation of tree data structures',
