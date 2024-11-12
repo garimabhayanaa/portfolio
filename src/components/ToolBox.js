@@ -34,7 +34,7 @@ const Toolbox = () => {
           <h2 className="header">Technical Skills</h2>
           <ul>
             <li><div className="heading">Programming Languages :</div><div className="tool">Python, Java</div></li>
-            <li><div className="heading">Frameworks & Libraries :</div><div className="tool">React.js, Flask, Node.js, Express, EJS, Bootstrap, jQuery</div></li>
+            <li><div className="heading">Frameworks & Libraries :</div><div className="tool">React.js, Next.js, Three.js, Flask, Node.js, Express, EJS, Bootstrap, jQuery</div></li>
             <li><div className="heading">Database Management :</div><div className="tool">SQL, PostgreSQL, MongoDB</div></li>
             <li><div className="heading">Cloud Computing :</div><div className="tool">AWS</div></li>
             <li><div className="heading">Machine Learning & AI :</div><div className="tool">Scikit-learn, TensorFlow, Keras</div></li>
