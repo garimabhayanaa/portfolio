@@ -2,7 +2,10 @@
   color: white;
   text-align: right;
   height: 500px;
-  background: linear-gradient(to bottom, #1c1c1c, #4f4f4f, #686868, #1c1c1c);
+  background-image: url('../logos/section1.png');
+  background-size: cover; 
+  background-position: center;  
+  background-repeat: no-repeat; 
   border-bottom: 1px solid white;
 }
 
