@@ -12,15 +12,14 @@
 #name {
   font-size: 600%;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin: 100px 50px 30px 50px;
-  padding: 200px 0px 0px 0px;
+  margin: 100px 50px 50px 50px;
+  padding: 200px 0px 10px 0px;
   position: relative;
   overflow: hidden;     
   border-right: 3px solid black;
   animation: typing 3s steps(30, end), blink-caret 0.75s step-end infinite;
   max-width: calc(100% - 200px); 
   white-space: nowrap;
-  line-height: 1;
   display: inline-block; 
 }
 
