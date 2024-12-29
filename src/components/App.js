@@ -8,7 +8,7 @@ import Climb from './Climb';
 import DownloadResume from './DownloadResume';
 import LetsConnect from './Socials';
 
-function App = () => {
+function App () {
   return (
     <div>
       <Bar />
