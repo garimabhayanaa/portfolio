@@ -2,6 +2,11 @@ import React from 'react';
 import "../stylesheets/Climb.css";
 const experiences = [
   {
+    title: 'Coordinator',
+    organization: 'Training and Placement Cell, ADGIPS',
+    duration: 'October 2024 - Present',
+    description: 'Served as a Placement Cell Coordinator, where I facilitated smooth placement drives by collaborating with HR representatives and fellow coordinators. This role honed my organizational and communication skills as I ensured seamless event execution, from managing student databases to scheduling interviews. By working in high-pressure environments, I developed the ability to handle challenges effectively and maintain professionalism. This experience has provided me with strong collaborative and operational capabilities, which I believe will be valuable in contributing to the success of future roles within the company.',
+  },{
     title: 'Contributor',
     organization: 'GirlScript Summer of Code',
     duration: 'October - November 2024',
