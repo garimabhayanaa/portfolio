@@ -1,7 +1,7 @@
 .home-content {
   color: white;
   text-align: right;
-  min-height: 500px;
+  min-height: 800px;
   background-image: url('../logos/section1.png');
   background-size: cover; 
   background-position: center;  
@@ -12,7 +12,7 @@
 #name {
   font-size: 600%;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin: 50px 50px 30px 50px;
+  margin: 100px 50px 30px 50px;
   position: relative;
   overflow: hidden;     
   border-right: 3px solid black;
