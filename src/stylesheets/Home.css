@@ -1,7 +1,7 @@
 .home-content {
   color: white;
   text-align: right;
-  height: 500px;
+  min-height: 500px;
   background-image: url('../logos/section1.png');
   background-size: cover; 
   background-position: center;  
