@@ -34,10 +34,10 @@ const Toolbox = () => {
           <h2 className="header">Technical Skills</h2>
           <ul>
             <li><div className="heading">Programming Languages :</div><div className="tool">Python, Java</div></li>
-            <li><div className="heading">Frameworks & Libraries :</div><div className="tool">React.js, Next.js, Three.js, Flask, Node.js, Express, EJS, Bootstrap, jQuery</div></li>
+            <li><div className="heading">Frameworks & Libraries :</div><div className="tool">React.js, Node.js, Express, EJS, Bootstrap, Tailwind CSS, jQuery, Flask, Scikit-Learn, Tensorflow, Keras, PyTorch, OpenCV</div></li>
             <li><div className="heading">Database Management :</div><div className="tool">SQL, PostgreSQL, MongoDB</div></li>
             <li><div className="heading">Cloud Computing :</div><div className="tool">AWS</div></li>
-            <li><div className="heading">Machine Learning & AI :</div><div className="tool">Scikit-learn, TensorFlow, Keras</div></li>
+            <li><div className="heading">Machine Learning & AI :</div><div className="tool">Supervised and Unsupervised Learning, Neural Networks, Natural Language Processing (NLP), Computer Vision, Generative AI, Data Analysis</div></li>
             <li><div className="heading">Web Technologies :</div><div className="tool">HTML, CSS, JavaScript, WordPress</div></li>
             <li><div className="heading">Version Control :</div><div className="tool">Git</div></li>
             <li><div className="heading">Data Structures and Algorithms (DSA) :</div><div className="tool">Java</div></li>
@@ -48,8 +48,8 @@ const Toolbox = () => {
           <h2 className="header">Soft Skills</h2>
           <ul>
             <li className="tool">Creative Problem-Solving</li><br/>
-            <li className="tool">Strong Communication</li><br/>
-            <li className="tool">Effective Time Management</li><br/>
+            <li className="tool">Effective Communication</li><br/>
+            <li className="tool">Time Management</li><br/>
             <li className="tool">Leadership and Team Collaboration</li>
           </ul>
         </div>
