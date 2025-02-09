@@ -6,7 +6,7 @@ const projects = [
   {
     title: 'AI-Powered Health Assistant',
     brief: 'Intelligent medical assistant for accurate health insights and diagnostics.',
-    header: 'AI-driven healthcare assistant for seamless medical guidance.',
+    header: 'AI-driven healthcare assistant for seamless medical guidance',
     description: 'Utilizes advanced AI, including Retrieval-Augmented Generation (RAG) and multimodal LLMs, to deliver precise medical insights. Users can submit text-based queries or upload medical images for AI-driven analysis, enhancing diagnostic accuracy. Built with FAISS for efficient search and Groq’s multimodal LLM for advanced processing, the assistant provides instant, reliable healthcare support. Designed for accessibility and ease of use, it empowers users with AI-driven medical assistance anytime, anywhere.',
     link: 'https://ai-health-assistant.streamlit.app'
 },
