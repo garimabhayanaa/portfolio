@@ -5,7 +5,7 @@ const experiences = [
     title: 'AI Intern',
     organization: 'AICTE',
     duration: 'January - February 2025',
-    description: 'Worked as an AI Intern under the AICTE TechSaksham initiative, developing an AI-powered medical assistant using Retrieval-Augmented Generation (RAG) and multimodal LLMs. I integrated FAISS for vector search, Hugging Face models for NLP, and Groq’s LLM for text and image-based medical analysis. This experience strengthened my expertise in AI-driven healthcare solutions, problem-solving, and scalable AI development. Moving forward, I aim to leverage these skills to build innovative AI solutions that drive real-world impact in healthcare and beyond.',
+    description: 'Worked as an AI Intern under the AICTE TechSaksham initiative (by Microsoft and SAP), developing an AI-powered medical assistant using Retrieval-Augmented Generation (RAG) and multimodal LLMs. I integrated FAISS for vector search, Hugging Face models for NLP, and Groq’s LLM for text and image-based medical analysis. This experience strengthened my expertise in AI-driven healthcare solutions, problem-solving, and scalable AI development. Moving forward, I aim to leverage these skills to build innovative AI solutions that drive real-world impact in healthcare and beyond.',
   },
   {
     title: 'Coordinator',
