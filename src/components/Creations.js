@@ -4,12 +4,19 @@ import webLogo from '../logos/website.png'
 
 const projects = [
   {
-    title: 'RoadMap Generator',
+    title: 'AI-Powered Health Assistant',
+    brief: 'Intelligent medical assistant for accurate health insights and diagnostics.',
+    header: 'AI-driven healthcare assistant for seamless medical guidance.',
+    description: 'Utilizes advanced AI, including Retrieval-Augmented Generation (RAG) and multimodal LLMs, to deliver precise medical insights. Users can submit text-based queries or upload medical images for AI-driven analysis, enhancing diagnostic accuracy. Built with FAISS for efficient search and Groq’s multimodal LLM for advanced processing, the assistant provides instant, reliable healthcare support. Designed for accessibility and ease of use, it empowers users with AI-driven medical assistance anytime, anywhere.',
+    link: 'https://ai-health-assistant.streamlit.app'
+},
+{   title: 'RoadMap Generator',
     brief: 'AI-integrated learning tool to carve personalised learning path for user.',
     header: 'React-based AI-powered tool that streamlines skill acquisition',
     description: 'Harnesses the capabilities of COHERE API to provide personalized learning paths. By inputting your desired skill and specific requirements, our AI meticulously constructs a tailored roadmap that guides you through your learning journey. Our tool empowers you to save your roadmap and accompanying notes as PDFs, ensuring easy access and future reference. With RoadMap Generator, you can streamline your learning process, stay organized, and efficiently achieve your skill acquisition goals.',
     link: 'https://roadmap-generator-two.vercel.app/',
-  },{
+  },
+  {
     title: 'PeriodPal',
     brief: 'React-based application to calculate and track menstrual cycles.',
     header: 'User-friendly menstrual cycle tracking app',
@@ -17,7 +24,7 @@ const projects = [
     link: 'https://garimabhayanaa.github.io/PeriodPal/',
   },
   {
-    title: 'AI Text Summarizer',
+    title: 'Text Summarizer',
     brief: 'AI-powered tool for summarizing lengthy text using Facebook\'s BART Large CNN model.',
     header: 'Efficient Summarization of Complex Texts',
     description: 'An intelligent application that leverages Facebook\'s BART Large CNN model, accessed via Hugging Face, to condense long articles, reports, and documents into concise summaries. By inputting any text, you can quickly receive a clear, coherent summary that retains the essential points and key information of the original content. The AI Text Summarizer provides a seamless experience, allowing users to gain insights from lengthy texts without reading the entire document, making it ideal for researchers, students, and professionals alike.',
