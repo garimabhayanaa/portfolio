@@ -20,9 +20,9 @@ Welcome to my **personal portfolio**! This website showcases my **projects, skil
 🔗 Visit My Portfolio https://garimabhayana.vercel.app
 
 ## 📞 Connect with Me
-📧 **Email:** garimaabhayanaa@gmail.com
-🔗 **LinkedIn:** https://www.linkedin.com/in/garimabhayanaa/
-🐙 **GitHub:** https://github.com/garimabhayanaa
+- 📧 **Email:** garimaabhayanaa@gmail.com
+- 🔗 **LinkedIn:** https://www.linkedin.com/in/garimabhayanaa/
+- 🐙 **GitHub:** https://github.com/garimabhayanaa
 
 ## 📜 License
 This project is open-source and available under the MIT License.
