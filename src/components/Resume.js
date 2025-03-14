@@ -79,10 +79,10 @@ const Resume = () => {
               rel="noopener noreferrer"
               className="download-btn"
             >
-              <span className="download-icon">📄</span> View Full Resume
+              <span className="download-icon"></span> View Full Resume
             </a>
             <a href="./GarimaBhayana.pdf" download className="download-btn">
-              <span className="download-icon">⬇️</span> Download PDF
+              <span className="download-icon">⬇</span> Download PDF
             </a>
           </div>
         </div>
