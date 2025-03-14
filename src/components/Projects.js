@@ -54,7 +54,7 @@ const Projects = () => {
       title: "Text Summarizer",
       description:
         "AI-powered summarization tool using Facebook's BART Large CNN model to generate concise summaries of long texts.",
-      image: "/images/textsummarizer.jpeg",
+      image: "/images/TextSummarizer.jpeg",
       category: "ai",
       technologies: ["Python", "Hugging Face API", "BART Model", "Flask"],
       github: "https://github.com/garimabhayanaa/AI-Text-Summarizer",
@@ -65,7 +65,7 @@ const Projects = () => {
       title: "Tree Visualizer",
       description:
         "Interactive visualization tool for Binary Trees, BSTs, and Heaps, helping users understand tree structures intuitively.",
-      image: "/images/treevisualizer.jpeg",
+      image: "/images/TreeVisualizer.jpeg",
       category: "web-dev",
       technologies: ["JavaScript", "HTML", "CSS", "D3.js"],
       github: "https://github.com/garimabhayanaa/Tree-Visualizer",
@@ -76,7 +76,7 @@ const Projects = () => {
       title: "Movie Manager",
       description:
         "A personalized watchlist application built using EJS, JavaScript, Node.js, and Express for organizing movies and TV shows.",
-      image: "/images/moviemanager.jpeg",
+      image: "/images/MovieManager.jpeg",
       category: "web-dev",
       technologies: ["EJS", "Node.js", "Express", "MongoDB"],
       github: "https://github.com/garimabhayanaa/movie-manager",
@@ -87,7 +87,7 @@ const Projects = () => {
       title: "Budget Manager",
       description:
         "Machine learning-powered expense management tool built with Streamlit to provide insights into spending patterns.",
-      image: "/images/budgetmanager.jpeg",
+      image: "/images/BudgetManager.jpeg",
       category: "ai",
       technologies: ["Python", "Machine Learning", "Streamlit", "Pandas"],
       github: "https://github.com/garimabhayanaa/budget-manager",
@@ -98,7 +98,7 @@ const Projects = () => {
       title: "Thrifteria",
       description:
         "A WordPress-based sustainable fashion marketplace, allowing users to buy and sell secondhand clothing.",
-      image: "/images/thrifteria.jpeg",
+      image: "/images/Thrifteria.jpeg",
       category: "web-dev",
       technologies: ["WordPress", "WooCommerce", "PHP", "MySQL"],
       github: "https://youtu.be/rqE9GJe-CJo",
