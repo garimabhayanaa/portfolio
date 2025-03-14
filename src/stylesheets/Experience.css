@@ -1,0 +1,165 @@
+.experience-section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align content to the top */
+  padding: 2rem 0;
+  position: relative; /* Ensure positioning works */
+}
+
+.experience-container {
+  display: flex;
+  margin-top: 1.5rem;
+  max-width: 900px;
+  flex-grow: 1;
+  align-items: flex-start; /* Align top */
+  justify-content: space-between;
+  min-height: 500px; /* Set a minimum height to prevent shifting */
+}
+
+
+.tabs {
+  display: flex;
+  flex-direction: column;
+  width: 250px; /* Set fixed width */
+  min-width: 250px; /* Ensures consistency */
+  border-left: 2px solid rgba(100, 255, 218, 0.1);
+  margin-right: 5px;
+}
+
+.tab-button {
+  text-align: left;
+  padding: 1rem 1.5rem;
+  background: transparent;
+  border: none;
+  color: var(--text-secondary);
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  border-left: 2px solid transparent;
+  margin-left: -2px;
+}
+
+.tab-button:hover {
+  color: var(--secondary-color);
+  background-color: rgba(100, 255, 218, 0.05);
+}
+
+.tab-button.active {
+  color: var(--secondary-color);
+  border-left: 2px solid var(--secondary-color);
+}
+
+.tab-content {
+  flex: 1;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Aligns content without affecting the title */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.tab-content h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.company-highlight {
+  color: var(--secondary-color);
+}
+
+.period {
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin-bottom: 1.5rem;
+}
+
+.responsibilities {
+  list-style-type: none;
+  padding-left: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.responsibilities li {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--text-secondary);
+}
+
+.responsibilities li::before {
+  content: "▹";
+  position: absolute;
+  left: 0;
+  color: var(--secondary-color);
+}
+
+.technologies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.tech-tag {
+  padding: 0.3rem 0.8rem;
+  border-radius: 3px;
+  background-color: rgba(100, 255, 218, 0.1);
+  color: var(--secondary-color);
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+}
+.section-title {
+  position: sticky;
+  top: 0;
+  background-color: var(--background-color);
+  padding: 1rem 0;
+  z-index: 100;
+  text-align: left;
+}
+
+
+@media (max-width: 768px) {
+  .experience-container {
+    flex-direction: column;
+  }
+
+  .tabs {
+    flex-direction: row;
+    overflow-x: auto;
+    border-left: none;
+    border-bottom: 2px solid rgba(100, 255, 218, 0.1);
+    margin-bottom: 1.5rem;
+  }
+
+  .tab-button {
+    border-left: none;
+    border-bottom: 2px solid transparent;
+    margin-left: 0;
+    margin-bottom: -2px;
+    padding: 0.75rem 1rem;
+    white-space: nowrap;
+  }
+
+  .tab-button.active {
+    border-left: none;
+    border-bottom: 2px solid var(--secondary-color);
+  }
+
+  .tab-content {
+    padding: 0;
+  }
+}
