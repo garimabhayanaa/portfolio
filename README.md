@@ -14,7 +14,7 @@ Welcome to my **personal portfolio**! This website showcases my **projects, skil
 - **Frontend**: HTML, CSS, JavaScript  
 - **Framework**: React.js  
 - **Styling**: Tailwind CSS  
-- **Hosting**: GitHub Pages  
+- **Hosting**: Vercel  
 
 ## 🌍 Live Preview
 🔗 Visit My Portfolio https://garimabhayana.vercel.app
