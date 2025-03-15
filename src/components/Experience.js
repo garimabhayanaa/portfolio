@@ -6,7 +6,7 @@ const Experience = () => {
 
   const experiences = [
     {
-      company: "EY GDS & AICTE (via Edunet Foundation)",
+      company: "AICTE EY GDS Internship (in collaboration with EY GDS)",
       position: "Software Development Intern",
       period: "March - April 2025",
       description: [
@@ -19,16 +19,16 @@ const Experience = () => {
       technologies: ["React", "Node.js", "MongoDB", "Express", "WebSockets", "Socket.io", "Git", "CI/CD"]
     },
     {
-      company: "Microsoft & SAP (via AICTE TechSaksham Program)",
+      company: "AICTE TechSaksham (Microsoft & SAP CSR Initiative)",
       position: "AI Intern",
       period: "January - February 2025",
       description: [
-        "Developed an AI-powered medical assistant capable of answering health-related queries using Retrieval-Augmented Generation (RAG), reducing manual research time for users",
-        "Implemented a document retrieval system with FAISS, improving response accuracy by 35% through efficient indexing and search optimization",
-        "Integrated a multimodal LLM to enable both text-based and image-based medical inquiries, expanding chatbot capabilities by 50%",
-        "Designed and optimized an embedding pipeline to process and store medical documents, reducing data retrieval time by 40%",
-        "Built a user-friendly interface with Streamlit, increasing accessibility and usability for non-technical users",
-        "Fine-tuned NLP models for medical context understanding, achieving a 25% improvement in response accuracy"
+        "Developed an AI-powered medical assistant capable of answering health-related queries using Retrieval-Augmented Generation (RAG), reducing manual research time for users.",
+        "Implemented a document retrieval system with FAISS, improving response accuracy by 35% through efficient indexing and search optimization.",
+        "Integrated a multimodal LLM (Llama-3.2-90b-vision-preview) with Groq API, enabling both text-based and image-based medical inquiries, expanding chatbot capabilities by 50%.",
+        "Designed and optimized an embedding pipeline to process and store medical documents, reducing data retrieval time by 40%.",
+        "Built a user-friendly interface with Streamlit, increasing accessibility and usability for non-technical users.",
+        "Fine-tuned NLP models for medical context understanding, achieving a 25% improvement in response accuracy."
       ],
       technologies: ["Python", "Hugging Face Transformers", "FAISS", "Mistral LLM", "Groq Multimodal API", "Streamlit", "NLP", "Vector Embeddings"]    
     }, 
