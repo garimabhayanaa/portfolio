@@ -34,11 +34,8 @@ const Projects = () => {
   "image": "./images/CoCreate.png",
   "category": "web-dev",
   "technologies": ["React", "Node.js", "Express", "MongoDB", "WebSockets", "Socket.IO", "Netlify", "Render", "Git", "CI/CD"],
-  "github": {
-    "frontend": "https://github.com/garimabhayanaa/CoCreate-Frontend",
-    "backend": "https://github.com/garimabhayanaa/CoCreate-Backend"
-  },
-  "demo": "https:cocreatecolab.netlify.app"
+  "github": "https://github.com/garimabhayanaa/CoCreate-frontend",
+  "demo": "https://cocreatecolab.netlify.app"
 },
 
     {
