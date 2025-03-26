@@ -28,7 +28,21 @@ const Projects = () => {
       demo: "https://ai-health-assistant.streamlit.app",
     },
     {
-      id: 3,
+  "id": 3,
+  "title": "CoCreate",
+  "description": "A real-time collaborative document editor with role-based access control, AI-powered assistance, and seamless multi-user editing.",
+  "image": "./images/CoCreate.png",
+  "category": "web-dev",
+  "technologies": ["React", "Node.js", "Express", "MongoDB", "WebSockets", "Socket.IO", "Netlify", "Render", "Git", "CI/CD"],
+  "github": {
+    "frontend": "https://github.com/garimabhayanaa/CoCreate-Frontend",
+    "backend": "https://github.com/garimabhayanaa/CoCreate-Backend"
+  },
+  "demo": "https:cocreatecolab.netlify.app"
+},
+
+    {
+      id: 4,
       title: "RoadMap Generator",
       description:
         "AI-integrated tool that generates personalized learning roadmaps based on user input using COHERE API.",
@@ -39,7 +53,7 @@ const Projects = () => {
       demo: "https://roadmap-generator-two.vercel.app/",
     },
     {
-      id: 4,
+      id: 5,
       title: "PeriodPal",
       description:
         "React-based menstrual cycle tracker that predicts upcoming periods and ovulation windows based on user inputs.",
@@ -50,7 +64,7 @@ const Projects = () => {
       demo: "https://garimabhayanaa.github.io/PeriodPal/",
     },
     {
-      id: 5,
+      id: 6,
       title: "Text Summarizer",
       description:
         "AI-powered summarization tool using Facebook's BART Large CNN model to generate concise summaries of long texts.",
@@ -61,7 +75,7 @@ const Projects = () => {
       demo: "https://text-summarizer--ai.vercel.app/",
     },
     {
-      id: 6,
+      id: 7,
       title: "Tree Visualizer",
       description:
         "Interactive visualization tool for Binary Trees, BSTs, and Heaps, helping users understand tree structures intuitively.",
@@ -72,7 +86,7 @@ const Projects = () => {
       demo: "https://garimabhayanaa.github.io/Tree-Visualizer/",
     },
     {
-      id: 7,
+      id: 8,
       title: "Movie Manager",
       description:
         "A personalized watchlist application built using EJS, JavaScript, Node.js, and Express for organizing movies and TV shows.",
@@ -83,7 +97,7 @@ const Projects = () => {
       demo: "https://youtu.be/0qRJc8AoVTE",
     },
     {
-      id: 8,
+      id: 9,
       title: "Budget Manager",
       description:
         "Machine learning-powered expense management tool built with Streamlit to provide insights into spending patterns.",
@@ -94,7 +108,7 @@ const Projects = () => {
       demo: "https://youtu.be/Es0UIUB5b7E",
     },
     {
-      id: 9,
+      id: 10,
       title: "Thrifteria",
       description:
         "A WordPress-based sustainable fashion marketplace, allowing users to buy and sell secondhand clothing.",
