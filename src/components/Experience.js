@@ -6,17 +6,17 @@ const Experience = () => {
 
   const experiences = [
     {
-      company: "AICTE EY GDS Internship (in collaboration with EY GDS)",
+      company: "AICTE EY GDS (in collaboration with EY GDS)",
       position: "Software Development Intern",
       period: "March - April 2025",
       description: [
-        "Designed and developed a real-time collaboration tool using MERN stack, enabling seamless multi-user interactions, reducing manual coordination efforts by 40%",
-        "Implemented WebSockets for real-time updates, reducing latency by 50% and improving synchronization efficiency",
-        "Optimized backend performance by implementing efficient database queries and caching strategies, improving query response time by 30%",
-        "Integrated authentication and access control, enhancing application security and preventing unauthorized access",
-        "Deployed the application using cloud services, ensuring 99.9% uptime and improved scalability"
+        "Engineered CoCreate, a real-time collaborative document editor powered by MERN stack with Socket.IO-driven live editing and role-based access control, reducing manual coordination efforts by 40%.",
+        "Implemented WebSockets for real-time updates, reducing latency by 50% and improving synchronization efficiency.",
+        "Optimized database queries and caching strategies, enhancing query response time by 30%.",
+        "Integrated authentication and access control, preventing unauthorized access and enhancing security.",
+        "Deployed frontend on Netlify and backend on Render, ensuring 99.9% uptime and improved scalability."
       ],
-      technologies: ["React", "Node.js", "MongoDB", "Express", "WebSockets", "Socket.io", "Git", "CI/CD"]
+      technologies: ["React", "Node.js", "Express", "MongoDB", "WebSockets", "Socket.IO", "Netlify", "Render", "Git", "CI/CD"]
     },
     {
       company: "AICTE TechSaksham (Microsoft & SAP CSR Initiative)",
@@ -37,10 +37,10 @@ const Experience = () => {
       position: "Contributor",
       period: "October - November 2024",
       description: [
-        "Integrated AI-driven features into applications, increasing user engagement by 30% and improving workflow efficiency",
-        "Contributed to multiple projects by implementing AI solutions, leading to a 40% reduction in manual effort for end users",
-        "Designed logos and branding for projects, increasing visibility across GitHub and community forums by 35%",
-        "Strengthened UI/UX consistency, leading to a 25% increase in user retention and overall application usability"
+        "Integrated AI-driven features into applications, increasing user engagement by 30% and improving workflow efficiency.",
+        "Contributed to multiple projects by implementing AI solutions, leading to a 40% reduction in manual effort for end users.",
+        "Designed logos and branding for projects, increasing visibility across GitHub and community forums by 35%.",
+        "Strengthened UI/UX consistency, leading to a 25% increase in user retention and overall application usability."
       ],
       technologies: ["Hugging Face API", "OpenAI API", "Groq API", "Canva", "Postman", "GitHub"]
     }
