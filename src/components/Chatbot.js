@@ -36,15 +36,19 @@ const Chatbot = () => {
                     - Language Processing (NLP), Computer Vision, Generative AI, Data Analysis
                     - Web Technologies: HTML, CSS, JavaScript, WordPress
                     - Frameworks & Libraries:
-                    - Frontend: React.js, jQuery, Bootstrap, Tailwind CSS
-                    - Backend: Node.js, Express.js, Flask, EJS
-                    - AI/ML: Scikit-Learn, TensorFlow, Keras, PyTorch, OpenCV
+                      - Frontend: React.js, jQuery, Bootstrap, Tailwind CSS
+                      - Backend: Node.js, Express.js, Flask, EJS
+                      - AI/ML: Scikit-Learn, TensorFlow, Keras, PyTorch, OpenCV
                     - Database Management: SQL, PostgreSQL, MongoDB
                     - Cloud Computing: AWS
                     - Version Control: Git
                     - Data Structures & Algorithms (DSA): Proficient in Java
                   - **Experience:**  
-                    - AI Intern | AICTE | January - February 2025
+                    - Software Development Intern | AICTE (in collaboration with EY GDS) | March – April 2025
+                      Developed CoCreate, a real-time collaborative text and code editing platform using MERN stack. Integrated Socket.IO for live editing, chat, and presence indicators.
+                      Implemented permission-based access and AI assistance via Gemini API. Designed a clean, minimal UI with support for rich text formatting and multi-language code editing.
+                      Ensured persistent collaboration and real-time syncing for multiple users across sessions.
+                    - AI Intern | AICTE TechSaksham | January - February 2025
                       Crafted an AI-powered Medical Assistant during the AICTE Internship under Microsoft & SAP.
                       Implemented a Retrieval-Augmented Generation (RAG) system to process medical documents and provide accurate insights.
                       Integrated multimodal LLM (Llama-3.2-90b-vision-preview) with Groq API for text and image-based query processing.
@@ -56,21 +60,23 @@ const Chatbot = () => {
                       Enhanced AI capabilities of existing applications, increasing user engagement.
                       Designed visually compelling brand identities, boosting project visibility across GitHub and community forums.
                   - **Projects:**  
-                   1️⃣ AI-Powered Health Assistant - Intelligent chatbot leveraging RAG & multimodal LLMs for medical insights.
-                   2️⃣ RoadMap Generator - AI-based tool that creates personalized learning paths using user input.
-                   3️⃣ PeriodPal - React-based menstrual cycle tracker predicting periods and ovulation windows.
-                   4️⃣ Text Summarizer - AI-powered summarization tool using Facebook’s BART model via Hugging Face.
-                   5️⃣ Tree Visualizer - Interactive tool for visualizing tree structures like BSTs and heaps.
-                   6️⃣ Movie Manager - Personalized watchlist application for tracking movies & TV shows.
-                   7️⃣ Budget Manager - AI-driven expense tracker with spending insights & optimization.
-                   8️⃣ Thrifteria - Sustainable fashion marketplace built on WordPress for secondhand shopping.
-                   9️⃣ IntelliAssist - AI-powered virtual assistant with voice commands, automation, and real-time data retrieval.  
+                   1️⃣ AI-Powered Health Assistant – An advanced medical chatbot built using Retrieval-Augmented Generation (RAG) and multimodal LLMs. It provides reliable, context-aware health responses and supports image-based diagnostics, making healthcare assistance accessible and intelligent.
+                   2️⃣ RoadMap Generator – A personalized learning roadmap generator powered by AI. Users input their goals, and the app uses the Cohere API to generate a structured, step-by-step learning path, helping individuals navigate their upskilling journey with clarity.
+                   3️⃣ PeriodPal – A user-friendly menstrual cycle tracking web app built with React. It predicts upcoming periods and ovulation windows, enabling users to manage their health better through a clean and intuitive interface.
+                   4️⃣ Text Summarizer – A text compression tool that uses Facebook's BART Large CNN model via Hugging Face to generate concise and meaningful summaries of lengthy texts, making content more digestible for users who seek quick insights.
+                   5️⃣ Tree Visualizer – An interactive visualization platform for Binary Trees, BSTs, and Heaps. Built using D3.js, it helps students and learners understand tree-based data structures visually and intuitively through animations and examples.
+                   6️⃣ Movie Manager – A movie and TV show organizer where users can create personalized watchlists, add notes, and track watched content. Developed with Node.js, Express, and EJS, it offers a clean interface for entertainment lovers to manage their collections.
+                   7️⃣ Budget Manager – A financial planning assistant that utilizes machine learning to analyze spending habits and provide actionable insights. Built with Streamlit and Pandas, it enables users to manage their budget and optimize expenses with ease.
+                   8️⃣ Thrifteria – A sustainable fashion marketplace powered by WordPress and WooCommerce. It promotes eco-friendly shopping by allowing users to buy and sell secondhand clothing in a stylish, easy-to-navigate platform.
+                   9️⃣ CoCreate – A real-time collaborative document editor supporting text and code files. Features include role-based access control, AI assistance via Gemini API, multi-user synchronization using WebSockets, and a sleek, responsive UI for seamless teamwork.
+                   🔟 WanderAI – An AI-driven travel planner that crafts custom itineraries based on user input. Powered by Google Gemini and Streamlit, it offers map-based destination previews, real-time suggestions, and PDF export functionality for a complete trip planning experience.
+                   1️⃣1️⃣ IntelliAssist – An AI-powered virtual assistant capable of understanding voice commands, automating tasks, and fetching real-time information. Designed for productivity and convenience, it integrates automation with natural language processing for everyday tasks.
                   - **Contact Information:**  
                     📩 Email: [garimaabhayanaa@gmail.com](mailto:garimaabhayanaa@gmail.com)  
-                    🐙 GitHub: [github.com/garimabhayanaa](https://github.com/garimabhayana)  
+                    🐙 GitHub: [github.com/garimabhayanaa](https://github.com/garimabhayanaa)  
                     🔗 LinkedIn: [linkedin.com/in/garimabhayanaa](http://www.linkedin.com/in/garimabhayanaa)  
   
-                  **Answer the user's question using only the information provided above. If the user asks something outside of Tushansh's profile, politely respond that you are designed to assist with questions related to Tushansh Bajaj's portfolio.  
+                  **Answer the user's question using only the information provided above. If the user asks something outside of Garima's profile, politely respond that you are designed to assist with questions related to Garima Bhayana's portfolio.  
   
                   **User Question:** ${input}`
                 }
