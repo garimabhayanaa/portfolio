@@ -36,10 +36,20 @@ const Projects = () => {
   "technologies": ["React", "Node.js", "Express", "MongoDB", "WebSockets", "Socket.IO", "Netlify", "Render", "Git", "CI/CD"],
   "github": "https://github.com/garimabhayanaa/CoCreate-frontend",
   "demo": "https://cocreatecolab.netlify.app"
-},
-
+    }, 
     {
-      id: 4,
+    id: 4,
+    title: "WanderAI",
+    description:
+      "An AI-powered travel planner that generates personalized itineraries using Gemini AI. Features include real-time city search, interactive OpenStreetMaps, PDF itinerary downloads, and a user-friendly interface built with Streamlit and Flask.",
+    image: "/images/WanderAI.jpeg",
+    category: "ai",
+    technologies: ["Python", "Flask", "Streamlit", "Google Gemini API", "OpenStreetMap", "Render"],
+    github: "https://github.com/garimabhayanaa/WanderAI",
+    demo: "https://wanderai-travel.streamlit.app/",
+    },
+    {
+      id: 5,
       title: "RoadMap Generator",
       description:
         "AI-integrated tool that generates personalized learning roadmaps based on user input using COHERE API.",
@@ -50,7 +60,7 @@ const Projects = () => {
       demo: "https://roadmap-generator-two.vercel.app/",
     },
     {
-      id: 5,
+      id: 6,
       title: "PeriodPal",
       description:
         "React-based menstrual cycle tracker that predicts upcoming periods and ovulation windows based on user inputs.",
@@ -61,7 +71,7 @@ const Projects = () => {
       demo: "https://garimabhayanaa.github.io/PeriodPal/",
     },
     {
-      id: 6,
+      id: 7,
       title: "Text Summarizer",
       description:
         "AI-powered summarization tool using Facebook's BART Large CNN model to generate concise summaries of long texts.",
@@ -72,7 +82,7 @@ const Projects = () => {
       demo: "https://text-summarizer--ai.vercel.app/",
     },
     {
-      id: 7,
+      id: 8,
       title: "Tree Visualizer",
       description:
         "Interactive visualization tool for Binary Trees, BSTs, and Heaps, helping users understand tree structures intuitively.",
@@ -83,7 +93,7 @@ const Projects = () => {
       demo: "https://garimabhayanaa.github.io/Tree-Visualizer/",
     },
     {
-      id: 8,
+      id: 9,
       title: "Movie Manager",
       description:
         "A personalized watchlist application built using EJS, JavaScript, Node.js, and Express for organizing movies and TV shows.",
@@ -94,7 +104,7 @@ const Projects = () => {
       demo: "https://youtu.be/0qRJc8AoVTE",
     },
     {
-      id: 9,
+      id: 10,
       title: "Budget Manager",
       description:
         "Machine learning-powered expense management tool built with Streamlit to provide insights into spending patterns.",
@@ -105,7 +115,7 @@ const Projects = () => {
       demo: "https://youtu.be/Es0UIUB5b7E",
     },
     {
-      id: 10,
+      id: 11,
       title: "Thrifteria",
       description:
         "A WordPress-based sustainable fashion marketplace, allowing users to buy and sell secondhand clothing.",
