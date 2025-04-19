@@ -54,7 +54,7 @@ const About = () => {
       year: "2023",
       title: "Built Strong DSA Foundations",
       description:
-        "Developed a strong grasp of DSA by completing a GeeksforGeeks course and tackling countless LeetCode problems. Sharpened problem-solving skills through practice questions and competitive coding contests.",
+        "Developed a strong grasp of DSA by completing a GeeksforGeeks course and tackling 450+ LeetCode problems. Sharpened problem-solving skills through practice questions and competitive coding contests.",
     },
     {
       year: "2024",
