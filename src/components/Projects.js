@@ -46,7 +46,7 @@ const Projects = () => {
     category: "ai",
     technologies: ["Python", "Flask", "Streamlit", "Google Gemini API", "OpenStreetMap", "Render"],
     github: "https://github.com/garimabhayanaa/WanderAI",
-    demo: "https://wanderai-travel.streamlit.app/",
+    demo: "https://wanderai.streamlit.app/",
     },
     {
       id: 5,
