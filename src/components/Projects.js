@@ -79,7 +79,7 @@ const Projects = () => {
       category: "ai",
       technologies: ["JavaScript", "Hugging Face API", "BART Model"],
       github: "https://github.com/garimabhayanaa/AI-Text-Summarizer",
-      demo: "https://text-summarizer--ai.vercel.app/",
+      demo: "https://ai-textsummarizer.vercel.app/",
     },
     {
       id: 8,
