@@ -6,7 +6,20 @@ const Experience = () => {
 
   const experiences = [
     {
-      company: "AICTE EY GDS (in collaboration with EY GDS)",
+    company: "JMedia Corporation (Remote – US-based)",
+    position: "Artificial Intelligence Intern",
+    period: "May 2025 - Present",
+    description: [
+      "Developed and deployed production-ready ML models using scikit-learn, TensorFlow, and PyTorch, enabling intelligent automation across internal tools.",
+      "Designed secure, reproducible pipelines for preprocessing, training, validation, and deployment, reducing iteration time by 40%.",
+      "Collaborated with a distributed AI team across time zones to align deliverables with business objectives and technical benchmarks.",
+      "Implemented version-controlled model lifecycles with integrated logging and performance tracking, improving reproducibility and debugging.",
+      "Maintained compliance while working with proprietary datasets, ensuring data security and adherence to organizational policies."
+    ],
+      technologies: ["Python", "TensorFlow", "PyTorch", "Scikit-learn", "ML Pipelines", "Version Control", "Git", "Flask"]
+    },
+    {
+      company: "AICTE (in collaboration with EY GDS)",
       position: "Software Development Intern",
       period: "March - April 2025",
       description: [
