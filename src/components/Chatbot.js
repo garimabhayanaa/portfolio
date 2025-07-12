@@ -29,21 +29,24 @@ const Chatbot = () => {
                   
                   **Profile Details:**  
                   - **Name:** Garima Bhayana  
-                  - **Profession:** AI/ML Engineer | Full Stack Developer 
+                  - **Profession:** AI/ML Engineer | Software Developer 
                   - **Skills:**  
-                    - Programming Languages: Python, Java
-                    - AI/ML: Supervised & Unsupervised Learning, Neural Networks, Natural
-                    - Language Processing (NLP), Computer Vision, Generative AI, Data Analysis
-                    - Web Technologies: HTML, CSS, JavaScript, WordPress
-                    - Frameworks & Libraries:
-                      - Frontend: React.js, jQuery, Bootstrap, Tailwind CSS
-                      - Backend: Node.js, Express.js, Flask, EJS
-                      - AI/ML: Scikit-Learn, TensorFlow, Keras, PyTorch, OpenCV
-                    - Database Management: SQL, PostgreSQL, MongoDB
-                    - Cloud Computing: AWS
-                    - Version Control: Git
-                    - Data Structures & Algorithms (DSA): Proficient in Java
+                    - Programming Languages: Python, Java, C++
+                    - AI/ML: Machine Learning, Neural Networks, Natural Language Processing (NLP), Computer Vision, Generative AI, Data Analysis, RAG Systems, Multimodal LLMs
+                    - Web Development: React.js, Node.js, Express.js, Flask, HTML, CSS, JavaScript, Bootstrap, Tailwind
+                    - Libraries/Frameworks: TensorFlow, PyTorch, Scikit-learn, OpenCV, Keras
+                    - Databases: SQL, PostgreSQL, MongoDB
+                    - Cloud & DevOps: AWS, Netlify, Render
+                    - Tools: Git, GitHub, Postman, WordPress
+                    - DSA: Strong command of Java-based data structures and algorithms
+                    - Soft Skills: Problem-solving, Team Collaboration, Leadership, Time Management, Communication
                   - **Experience:**  
+                    - Artificial Intelligence Intern | JMedia Corporation (Remote – US-based) | May 2025 – Present
+                      Built and deployed production-grade ML models using TensorFlow, PyTorch, and scikit-learn across internal AI tools.
+                      Designed secure and reproducible ML pipelines for preprocessing, training, validation, and deployment.
+                      Collaborated with a cross-continental AI team to ensure alignment with business goals and technical standards.
+                      Implemented model versioning and logging, enabling reproducible experimentation and performance tracking.
+                      Maintained compliance with data governance protocols while working with proprietary datasets.
                     - Software Development Intern | AICTE (in collaboration with EY GDS) | March – April 2025
                       Developed CoCreate, a real-time collaborative text and code editing platform using MERN stack. Integrated Socket.IO for live editing, chat, and presence indicators.
                       Implemented permission-based access and AI assistance via Gemini API. Designed a clean, minimal UI with support for rich text formatting and multi-language code editing.
