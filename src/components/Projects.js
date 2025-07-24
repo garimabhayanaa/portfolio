@@ -72,14 +72,14 @@ const Projects = () => {
     },
     {
       id: 7,
-      title: "Text Summarizer",
-      description:
-        "AI-powered summarization tool using Facebook's BART Large CNN model to generate concise summaries of long texts.",
-      image: "/images/TextSummarizer.jpeg",
+      title: "SynthText",
+      description: 
+        "AI-powered tool that performs tone-aware summarization and paraphrasing of long texts using Facebook’s BART Large CNN model, helping users extract concise, meaningful insights while preserving intent and context.",
+      image: "/images/SynthText.png",
       category: "ai",
       technologies: ["JavaScript", "Hugging Face API", "BART Model"],
-      github: "https://github.com/garimabhayanaa/AI-Text-Summarizer",
-      demo: "https://ai-textsummarizer.vercel.app/",
+      github: "https://github.com/garimabhayanaa/SynthText",
+      demo: "https://synthtext-garima-bhayanas-projects.vercel.app/",
     },
     {
       id: 8,
