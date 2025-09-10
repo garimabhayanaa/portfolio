@@ -8,7 +8,7 @@ const Experience = () => {
     {
     company: "JMedia Corporation (Remote – US-based)",
     position: "Artificial Intelligence Intern",
-    period: "May 2025 - Present",
+    period: "May - August 2025",
     description: [
       "Developed and deployed production-ready ML models using scikit-learn, TensorFlow, and PyTorch, enabling intelligent automation across internal tools.",
       "Designed secure, reproducible pipelines for preprocessing, training, validation, and deployment, reducing iteration time by 40%.",
