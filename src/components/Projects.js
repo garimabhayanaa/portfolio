@@ -6,15 +6,14 @@ const Projects = () => {
 
   const projects = [
     {
-      id: 1,
-      title: "IntelliAssist",
-      description:
-        "An AI-powered virtual assistant with voice and text interaction, automation capabilities, and real-time information retrieval.",
-      image: "./images/IntelliAssist.png",
-      category: "ai",
-      technologies: ["Python", "PyQt5", "Cohere API", "Groq API", "Hugging Face API", "Selenium"],
-      github: "https://github.com/garimabhayanaa/IntelliAssist",
-      demo: "https://youtu.be/45pJzgAXK9M",
+      "id": 1,
+      "title": "TraceLens",
+      "description": "A digital footprint analysis tool designed to raise privacy awareness by demonstrating how AI can infer sensitive personal information from publicly available data. Features include secure authentication, AI-driven inference engine, privacy risk assessment, and educational resources.",
+      "image": "./images/TraceLens.png",
+      "category": "ai",
+      "technologies": ["Next.js", "React", "Tailwind CSS", "Flask", "FireBase", "Vercel", "CI/CD"],
+      "github": "https://github.com/garimabhayanaa/TraceLens",
+      "demo": "https://trace-lens.vercel.app/"
     },
     { 
       id: 2,
@@ -28,28 +27,39 @@ const Projects = () => {
       demo: "https://ai-health-assistant.streamlit.app",
     },
     {
-  "id": 3,
-  "title": "CoCreate",
-  "description": "A real-time collaborative document editor with role-based access control, AI-powered assistance, and seamless multi-user editing.",
-  "image": "./images/CoCreate.png",
-  "category": "web-dev",
-  "technologies": ["React", "Node.js", "Express", "MongoDB", "WebSockets", "Socket.IO", "Netlify", "Render", "Git"],
-  "github": "https://github.com/garimabhayanaa/CoCreate-frontend",
-  "demo": "https://cocreatecolab.netlify.app"
+      "id": 3,
+      "title": "CoCreate",
+      "description": "A real-time collaborative document editor with role-based access control, AI-powered assistance, and seamless multi-user editing.",
+      "image": "./images/CoCreate.png",
+      "category": "web-dev",
+      "technologies": ["React", "Node.js", "Express", "MongoDB", "WebSockets", "Socket.IO", "Netlify", "Render", "Git"],
+      "github": "https://github.com/garimabhayanaa/CoCreate-frontend",
+      "demo": "https://cocreatecolab.netlify.app"
     }, 
     {
-    id: 4,
-    title: "WanderAI",
-    description:
-      "An AI-powered travel planner that generates personalized itineraries using Gemini AI. Features include real-time city search, interactive OpenStreetMaps, PDF itinerary downloads, and a user-friendly interface built with Streamlit and Flask.",
-    image: "/images/WanderAI.jpeg",
-    category: "ai",
-    technologies: ["Python", "Flask", "Streamlit", "Google Gemini API", "OpenStreetMap", "Render"],
-    github: "https://github.com/garimabhayanaa/WanderAI",
-    demo: "https://wanderai.streamlit.app/",
+      id: 4,
+      title: "WanderAI",
+      description:
+        "An AI-powered travel planner that generates personalized itineraries using Gemini AI. Features include real-time city search, interactive OpenStreetMaps, PDF itinerary downloads, and a user-friendly interface built with Streamlit and Flask.",
+      image: "/images/WanderAI.jpeg",
+      category: "ai",
+      technologies: ["Python", "Flask", "Streamlit", "Google Gemini API", "OpenStreetMap", "Render"],
+      github: "https://github.com/garimabhayanaa/WanderAI",
+      demo: "https://wanderai.streamlit.app/",
     },
     {
       id: 5,
+      title: "IntelliAssist",
+      description:
+        "An AI-powered virtual assistant with voice and text interaction, automation capabilities, and real-time information retrieval.",
+      image: "./images/IntelliAssist.png",
+      category: "ai",
+      technologies: ["Python", "PyQt5", "Cohere API", "Groq API", "Hugging Face API", "Selenium"],
+      github: "https://github.com/garimabhayanaa/IntelliAssist",
+      demo: "https://youtu.be/45pJzgAXK9M",
+    },
+    {
+      id: 6,
       title: "RoadMap Generator",
       description:
         "AI-integrated tool that generates personalized learning roadmaps based on user input using COHERE API.",
@@ -60,7 +70,7 @@ const Projects = () => {
       demo: "https://roadmap-generator-two.vercel.app/",
     },
     {
-      id: 6,
+      id: 7,
       title: "PeriodPal",
       description:
         "React-based menstrual cycle tracker that predicts upcoming periods and ovulation windows based on user inputs.",
@@ -71,7 +81,7 @@ const Projects = () => {
       demo: "https://garimabhayanaa.github.io/PeriodPal/",
     },
     {
-      id: 7,
+      id: 8,
       title: "SynthText",
       description: 
         "AI-powered tool that performs tone-aware summarization and paraphrasing of long texts using Facebook’s BART Large CNN model, helping users extract concise, meaningful insights while preserving intent and context.",
@@ -82,7 +92,7 @@ const Projects = () => {
       demo: "https://synthtext-garima-bhayanas-projects.vercel.app/",
     },
     {
-      id: 8,
+      id: 9,
       title: "Tree Visualizer",
       description:
         "Interactive visualization tool for Binary Trees, BSTs, and Heaps, helping users understand tree structures intuitively.",
@@ -93,7 +103,7 @@ const Projects = () => {
       demo: "https://garimabhayanaa.github.io/Tree-Visualizer/",
     },
     {
-      id: 9,
+      id: 10,
       title: "Movie Manager",
       description:
         "A personalized watchlist application built using EJS, JavaScript, Node.js, and Express for organizing movies and TV shows.",
@@ -104,7 +114,7 @@ const Projects = () => {
       demo: "https://youtu.be/0qRJc8AoVTE",
     },
     {
-      id: 10,
+      id: 11,
       title: "Budget Manager",
       description:
         "Machine learning-powered expense management tool built with Streamlit to provide insights into spending patterns.",
@@ -115,7 +125,7 @@ const Projects = () => {
       demo: "https://youtu.be/Es0UIUB5b7E",
     },
     {
-      id: 11,
+      id: 12,
       title: "Thrifteria",
       description:
         "A WordPress-based sustainable fashion marketplace, allowing users to buy and sell secondhand clothing.",
