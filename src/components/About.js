@@ -20,12 +20,14 @@ const About = () => {
       }
     );
 
-    timelineRefs.current.forEach((ref) => {
+    const refs = timelineRefs.current;
+
+    refs.forEach((ref) => {
       if (ref) observer.observe(ref);
     });
 
     return () => {
-      timelineRefs.current.forEach((ref) => {
+      refs.forEach((ref) => {
         if (ref) observer.unobserve(ref);
       });
     };
