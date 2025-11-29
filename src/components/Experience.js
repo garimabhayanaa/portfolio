@@ -6,6 +6,20 @@ const Experience = () => {
 
   const experiences = [
     {
+      company: "DIRO",
+      position: "Artificial Intelligence Intern",
+      period: "October 2025 – Present",
+      description: [
+        "Worked closely with engineering and product teams to design and implement AI-assisted automation modules, improving internal workflow efficiency by ~30%.",
+        "Built a chatbot-driven requirement-extraction system that automated documentation workflows, reducing manual preparation time by 40%.",
+        "Planned and optimized automated testing and reliability pipelines, resulting in more consistent deployments and ~25% faster error resolution.",
+        "Developed analytics dashboards for session monitoring and browser-level insights, enabling early anomaly detection and improving system visibility by 35%.",
+        "Contributed to AI-driven observability initiatives by integrating predictive insights into engineering processes, enhancing traceability and development velocity."
+      ],
+      technologies: ["Python", "JavaScript","TypeScript","Node.js","Automation Pipelines","AI Observability","Langfuse","Analytics Dashboards","CI/CD","Git"]
+    },
+
+    {
     company: "JMedia Corporation (Remote – US-based)",
     position: "Artificial Intelligence Intern",
     period: "May - August 2025",
