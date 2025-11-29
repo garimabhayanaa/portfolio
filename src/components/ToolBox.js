@@ -1,4 +1,3 @@
-// ToolBox.jsx
 import React, { useEffect, useState } from "react";
 import "../stylesheets/ToolBox.css";
 import {
@@ -45,219 +44,116 @@ const ToolBox = () => {
   }, []);
 
   const skillCategories = [
-    {
-      name: "Programming Languages",
-      icon: <FaCode />,
-      skills: [
-        { 
-          name: "Python", 
-          level: 95, 
-          icon: <FaPython /> 
-        },
-        { 
-          name: "Java", 
-          level: 75, 
-          icon: <FaJava /> 
-        },
-      ],
-    },
-    {
-      name: "Database Management",
-      icon: <FaDatabase />,
-      skills: [
-        { 
-          name: "SQL", 
-          level: 90, 
-          icon: <FaDatabase /> 
-        },
-        { 
-          name: "PostgreSQL", 
-          level: 85, 
-          icon: <SiPostgresql /> 
-        },
-        { 
-          name: "MongoDB", 
-          level: 70, 
-          icon: <SiMongodb /> 
-        },
-      ],
-    },
-    {
-      name: "AI & Machine Learning",
-      icon: <SiTensorflow />,
-      skills: [
-        {
-          name: "Supervised & Unsupervised Learning",
-          level: 90,
-          icon: <SiScikitlearn />, // TensorFlow represents ML concepts
-        },
-        { 
-          name: "Neural Networks", 
-          level: 85, 
-          icon: <SiKeras />, // Keras is widely used for neural networks 
-        },
-        {
-          name: "Natural Language Processing (NLP)",
-          level: 95,
-          icon: <SiOpenai />, // OpenAI icon represents NLP well
-        },
-        { 
-          name: "Computer Vision", 
-          level: 75, 
-          icon: <SiOpencv />, // OpenCV is best for CV
-        },
-        { 
-          name: "Generative AI", 
-          level: 70, 
-          icon: <SiTensorflow />, // TensorFlow is common in GenAI models
-        },
-        { 
-          name: "Data Analysis", 
-          level: 85, 
-          icon: <SiTableau />, // Tableau represents data visualization/analysis
-        },
-        { 
-          name: "Scikit-Learn", 
-          level: 85, 
-          icon: <SiScikitlearn />, // Scikit-Learn icon
-        },
-        { 
-          name: "TensorFlow", 
-          level: 85, 
-          icon: <SiTensorflow />, 
-        },
-        { 
-          name: "Keras", 
-          level: 80, 
-          icon: <SiKeras />, 
-        },
-        { 
-          name: "PyTorch", 
-          level: 80, 
-          icon: <SiPytorch />, 
-        },
-        { 
-          name: "OpenCV", 
-          level: 75, 
-          icon: <SiOpencv />, 
-        },
-      ],
-    },
-    
-    {
-      name: "Web Development",
-      icon: <FaGlobe />,
-      skills: [
-        { 
-          name: "HTML", 
-          level: 95, 
-          icon: <SiHtml5 /> 
-        },
-        { 
-          name: "CSS", 
-          level: 90, 
-          icon: <SiCss3 /> 
-        },
-        { 
-          name: "JavaScript", 
-          level: 85, 
-          icon: <SiJavascript /> 
-        },
-        { 
-          name: "React.js", 
-          level: 90, 
-          icon: <FaReact /> 
-        },
-        { 
-          name: "jQuery", 
-          level: 80, 
-          icon: <FaCode /> 
-        },
-        { 
-          name: "Bootstrap", 
-          level: 85, 
-          icon: <SiBootstrap /> 
-        },
-        { 
-          name: "Tailwind CSS", 
-          level: 85, 
-          icon: <SiTailwindcss /> 
-        },
-        { 
-          name: "WordPress", 
-          level: 75, 
-          icon: <FaWordpress /> 
-        },
-        { 
-          name: "Node.js", 
-          level: 80,
-          icon: <FaNodeJs /> 
-        },
-        { 
-          name: "Express.js", 
-          level: 80, 
-          icon: <FaCode /> 
-        },
-        { 
-          name: "Flask", 
-          level: 75, 
-          icon: <SiFlask /> 
-        },
-        { 
-          name: "EJS", 
-          level: 70, 
-          icon: <FaCode /> 
-        },
-      ],
-    },
-    {
-      name: "Other Technical Skills",
-      icon: <FaTools />,
-      skills: [
-        { 
-          name: "Git", 
-          level: 90, 
-          icon: <FaGitAlt /> 
-        },
-        { 
-          name: "DSA (Java)", 
-          level: 90, 
-          icon: <FaJava /> 
-        },
-        {
-          name: "Cloud Computing with AWS",
-          level: 70,
-          icon: <FaAws />
-        }
-      ],
-    },
-    {
-      name: "Soft Skills",
-      icon: <FaUsers />,
-      skills: [
-        { 
-          name: "Creative Problem-Solving", 
-          level: 90, 
-          icon: <FaLightbulb /> 
-        },
-        { 
-          name: "Effective Communication", 
-          level: 85, 
-          icon: <FaComments /> 
-        },
-        { 
-          name: "Time Management", 
-          level: 85, 
-          icon: <FaClock /> 
-        },
-        {
-          name: "Leadership & Team Collaboration",
-          level: 90,
-          icon: <FaUsersCog />,
-        },
-      ],
-    },
-  ];
+  // -----------------------------------------------------
+  // PROGRAMMING LANGUAGES
+  // -----------------------------------------------------
+  {
+    name: "Programming Languages",
+    icon: <FaCode />,
+    skills: [
+      { name: "Python", level: 95, icon: <FaPython /> },
+      { name: "Java", level: 80, icon: <FaJava /> },
+      { name: "C++", level: 75, icon: <FaCode /> },
+      { name: "TypeScript", level: 80, icon: <FaCode /> },
+    ],
+  },
+
+  // -----------------------------------------------------
+  // DATABASE MANAGEMENT
+  // -----------------------------------------------------
+  {
+    name: "Database Management",
+    icon: <FaDatabase />,
+    skills: [
+      { name: "SQL", level: 90, icon: <FaDatabase /> },
+      { name: "PostgreSQL", level: 85, icon: <SiPostgresql /> },
+      { name: "MongoDB", level: 80, icon: <SiMongodb /> },
+      { name: "Firebase", level: 90, icon: <SiMongodb /> },
+    ],
+  },
+
+  // -----------------------------------------------------
+  // AI & MACHINE LEARNING
+  // -----------------------------------------------------
+  {
+    name: "AI & Machine Learning",
+    icon: <SiTensorflow />,
+    skills: [
+      { name: "Machine Learning", level: 90, icon: <SiScikitlearn /> },
+      { name: "Deep Learning", level: 85, icon: <SiKeras /> },
+      { name: "Neural Networks", level: 85, icon: <SiKeras /> },
+      { name: "NLP", level: 95, icon: <SiOpenai /> },
+      { name: "Computer Vision", level: 80, icon: <SiOpencv /> },
+      { name: "Generative AI", level: 85, icon: <SiTensorflow /> },
+      { name: "RAG (Retrieval-Augmented Generation)", level: 90, icon: <SiOpenai /> },
+      { name: "Multimodal AI", level: 85, icon: <SiTensorflow /> },
+      { name: "Data Analysis", level: 85, icon: <SiTableau /> },
+    ],
+  },
+
+  // -----------------------------------------------------
+  // WEB DEVELOPMENT
+  // -----------------------------------------------------
+  {
+    name: "Web Development",
+    icon: <FaGlobe />,
+    skills: [
+      { name: "HTML", level: 95, icon: <SiHtml5 /> },
+      { name: "CSS", level: 90, icon: <SiCss3 /> },
+      { name: "JavaScript", level: 90, icon: <SiJavascript /> },
+      { name: "TypeScript", level: 85, icon: <FaCode /> },
+
+      { name: "React.js", level: 90, icon: <FaReact /> },
+      { name: "Next.js", level: 85, icon: <FaReact /> }, 
+
+      { name: "Bootstrap", level: 85, icon: <SiBootstrap /> },
+      { name: "Tailwind CSS", level: 85, icon: <SiTailwindcss /> },
+
+      { name: "Node.js", level: 85, icon: <FaNodeJs /> },
+      { name: "Express.js", level: 80, icon: <FaCode /> },
+      { name: "Flask", level: 75, icon: <SiFlask /> },
+
+      { name: "Socket.IO (Real-time)", level: 80, icon: <FaCode /> }, 
+      { name: "REST APIs", level: 90, icon: <FaCode /> }, 
+      { name: "Authentication & Authorization", level: 85, icon: <FaUsersCog /> }, 
+      { name: "Microservices", level: 75, icon: <FaTools /> }, 
+    ],
+  },
+
+  // -----------------------------------------------------
+  // OTHER TECHNICAL SKILLS
+  // -----------------------------------------------------
+  {
+    name: "Other Technical Skills",
+    icon: <FaTools />,
+    skills: [
+      { name: "Git & GitHub", level: 95, icon: <FaGitAlt /> },
+      { name: "DSA (Java)", level: 90, icon: <FaJava /> },
+      { name: "Docker", level: 80, icon: <FaTools /> },
+      { name: "Kubernetes", level: 70, icon: <FaTools /> },
+      { name: "CI/CD Pipelines", level: 80, icon: <FaTools /> },
+      { name: "Postman", level: 85, icon: <FaTools /> },
+      { name: "Agile Methodology", level: 85, icon: <FaTools /> },
+      { name: "AWS", level: 75, icon: <FaAws /> },
+    ],
+  },
+
+  // -----------------------------------------------------
+  // SOFT SKILLS
+  // -----------------------------------------------------
+  {
+    name: "Soft Skills",
+    icon: <FaUsers />,
+    skills: [
+      { name: "Creative Problem-Solving", level: 90, icon: <FaLightbulb /> },
+      { name: "Effective Communication", level: 85, icon: <FaComments /> },
+      { name: "Time Management", level: 85, icon: <FaClock /> },
+      { name: "Leadership & Team Collaboration", level: 90, icon: <FaUsersCog /> },
+      { name: "Adaptability", level: 90, icon: <FaUsersCog /> }, 
+    ],
+  },
+];
+
 
   return (
     <section className="toolbox-section">
@@ -295,7 +191,7 @@ const ToolBox = () => {
                         style={{
                           width: `${skill.level}%`,
                           animation: `skillProgress 1s ease forwards`,
-                          "--skill-width": `${skill.level}%`, // Pass skill level as a CSS variable
+                          "--skill-width": `${skill.level}%`, 
                           animationDelay: `${index * 0.2 + idx * 0.1}s`,
                         }}
                       >
