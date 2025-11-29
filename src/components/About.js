@@ -68,7 +68,7 @@ const About = () => {
       year: "2025",
       title: "Internships",
       description:
-        "Gained hands-on experience through two internships— developed an AI-powered health assistant using RAG and multimodal AI in the AICTE x TechSaksham program, and built a Real-time collaboration tool with the MERN stack in the EY GDS x AICTE internship.",
+        "Completed four internships across AI engineering and full-stack development. Built a multimodal RAG-based medical assistant in the AICTE TechSaksham program, developed a real-time collaborative editor (MERN + Socket.IO) in the EY GDS internship, engineered ML pipelines and generative AI systems during my JMedia role, and contributed to automation, analytics dashboards, and AI-driven observability at DIRO.",
     }
   ];
 
