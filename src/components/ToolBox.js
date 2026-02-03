@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import "../stylesheets/ToolBox.css";
 import {
   FaPython,
-  FaJava,
   FaGlobe,
   FaReact,
   FaNodeJs,
