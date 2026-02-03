@@ -44,31 +44,31 @@ const About = () => {
       year: "2020",
       title: "Hello World",
       description:
-        "Discovered the world of programming as a Computer Science student in school, starting with basic Python. Found joy in the smallest victories—whether it was printing a simple pattern or getting a few lines of code to run successfully, sparking a deep curiosity for problem-solving through code.",
+        "Discovered programming in school through Python. Small scripts, simple logic — sparked a deeper interest in problem-solving through code.",
     },
     {
       year: "2022",
       title: "Started UG",
       description:
-        "Began BTech in Information Technology at Guru Gobind Singh Indraprastha University, exploring core computing techniques and Artificial Intelligence.",
+        "Started B.Tech in Information Technology at Guru Gobind Singh Indraprastha University, building foundations across core computing and artificial intelligence.",
     },
     {
       year: "2023",
       title: "Built Strong DSA Foundations",
       description:
-        "Developed a strong grasp of DSA by completing a GeeksforGeeks course and tackling 450+ LeetCode problems. Sharpened problem-solving skills through practice questions and competitive coding contests.",
+        "Strengthened DSA fundamentals through structured coursework and consistent practice, solving 600+ LeetCode problems and developing a disciplined approach to breaking down complex problems.",
     },
     {
       year: "2024",
       title: "Open Source Contributions",
       description:
-        "Explored open-source development by actively contributing to various projects. Completed a range of projects while honing skills in AI/ML and web development. Participated in GirlScript Summer of Code 2024 Extended, working on AI integration and logo design for multiple projects.",
+        "Explored applied development through projects and open-source contributions. Participated in GirlScript Summer of Code, contributing to feature improvements, AI integrations, and collaborative codebases.",
     },
     {
       year: "2025",
       title: "Internships",
       description:
-        "Completed four internships across AI engineering and full-stack development. Built a multimodal RAG-based medical assistant in the AICTE TechSaksham program, developed a real-time collaborative editor (MERN + Socket.IO) in the EY GDS internship, engineered ML pipelines and generative AI systems during my JMedia role, and contributed to automation, analytics dashboards, and AI-driven observability at DIRO.",
+        "Completed multiple internships building AI-driven products and internal platforms. Worked on a multimodal RAG-based medical assistant, a real-time collaborative editor, ML pipelines and generative AI systems, and AI-powered automation and analytics tools used in operational settings.",
     }
   ];
 
@@ -83,27 +83,26 @@ const About = () => {
           </div>
           <div className="bio">
             <p>
-            Hello! I'm Garima Bhayana, an AI-ML Engineer and Full Stack Developer who thrives on solving 
-            problems with technology. My fascination with AI didn’t start in a classroom but with the countless 
-            mind-blowing movies that showcased its limitless potential. The idea of intelligent systems evolving, 
-            learning, and reshaping the world captivated me—and soon, curiosity turned into action.
+            I build AI-driven products end to end, with a strong focus on usability, reliability, and real-world constraints.
             </p>
             <p>
-            What began as a love for futuristic storytelling quickly transformed into hands-on exploration. From 
-            tinkering with AI models to integrating intelligent automation into real-world applications, I found 
-            myself drawn deeper into the field. Open-source contributions, API integrations, and working 
-            with cutting-edge AI frameworks fueled my passion even further, turning what once seemed like sci-fi into reality.
+            My work sits at the intersection of AI engineering and product execution. Across internships and projects, I’ve worked 
+            on internal tools, AI assistants, and collaborative platforms, often owning features from problem framing and system design 
+            to implementation and iteration based on feedback. I enjoy operating in ambiguous environments, clarifying requirements, and 
+            making tradeoffs that balance technical feasibility with user and business needs.
             </p>
             <p>
-            Outside of tech, I’m a true cinephile—always on the lookout for films that challenge perspectives and push 
-            creative boundaries. Whether it’s a thought-provoking thriller or a visually stunning masterpiece, cinema 
-            inspires the way I think and build. And when I’m not diving into movies or AI, you’ll find me spending time 
-            with dogs, because let’s be real—life is better with them around.
+            Technically, I work with AI/ML systems, LLM-based architectures, and modern web technologies. Practically, I care about why 
+            something is being built, how users interact with it, and what decisions make a system useful beyond a demo.
             </p>
-            <h3>
-              If it can be automated, I’ll find a way. If there’s a story to be told, I’ll be watching. And if there’s 
-              a challenge in AI, I’m all in.
-            </h3>
+            <p>
+              Outside of work, I’m a cinephile who loves films that challenge perspective and storytelling and I’ll never say no to 
+              spending time with dogs. Both, in their own way, influence how I think about empathy, design, and human behavior.
+            </p>
+            <p>
+              I’m interested in building thoughtful AI-powered products and platforms that solve real problems—not just technically, but 
+              meaningfully.
+            </p>
           </div>
         </div>
 
