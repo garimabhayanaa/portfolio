@@ -30,9 +30,9 @@ const Homepage = ({ setActiveSection }) => {
       <div className="home-content">
         <p ref={nameRef} className="greeting fade-in">Hello, my name is</p>
         <h1 ref={titleRef} className="name fade-in">Garima Bhayana<span className="cursor">|</span></h1>
-        <h2 ref={descTitleRef} className="title fade-in">AI/ML Engineer & Full Stack Developer</h2>
+        <h2 ref={descTitleRef} className="title fade-in">AI Engineer building Product-driven systems</h2>
         <p ref={descRef} className="description fade-in">
-        Bridging AI and Real-World Solutions – One Innovation at a Time.
+        From ambiguous problems to shipped solutions
         </p>
         <div ref={ctaRef} className="cta-buttons fade-in">
           <a href="#projects" onClick={(e) => {
