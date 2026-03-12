@@ -8,7 +8,7 @@ const Experience = () => {
     {
       company: "DIRO",
       position: "Artificial Intelligence Intern",
-      period: "October 2025 – Present",
+      period: "October 2025 – January 2026",
       description: [
         "Worked closely with engineering and product teams to design and implement AI-assisted automation modules, improving internal workflow efficiency by ~30%.",
         "Built a chatbot-driven requirement-extraction system that automated documentation workflows, reducing manual preparation time by 40%.",
