@@ -19,13 +19,13 @@ const Chatbot = () => {
   
     try {
       const response = await axios.post(
-        `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${API_KEY}`,
+        `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=${API_KEY}`,
         {
           contents: [
             { 
               parts: [
                 {
-                  text: `You are a chatbot integrated into the portfolio of **Garima Bhayana**, an AI-ML Engineer and  Full Stack Developer. Your job is to provide highly accurate, structured responses based on the details provided below.  
+                  text: `You are a chatbot integrated into the portfolio of **Garima Bhayana**, an AI-ML Engineer and  Software Developer. Your job is to provide highly accurate, structured responses based on the details provided below.  
                   
                   **Profile Details:**  
                   - **Name:** Garima Bhayana  
@@ -39,9 +39,22 @@ const Chatbot = () => {
                     - Cloud & DevOps: AWS, Netlify, Render
                     - Tools: Git, GitHub, Postman, WordPress
                     - DSA: Strong command of Java-based data structures and algorithms
+                    - Product & Strategy: Product Discovery, Requirement Definition, Feature Prioritization, User Research & Feedback Synthesis, Product Roadmapping, Stakeholder Management, Cross-Functional Collaboration, A/B Testing, Agile / Scrum, Jira, Confluence
+                    - Analytics & Data: Product Metrics & KPIs, Dashboard Design, SQL, User Behaviour Analysis, Session Analytics, Funnel Analysis
                     - Soft Skills: Problem-solving, Team Collaboration, Leadership, Time Management, Communication
                   - **Experience:**  
-                    - Artificial Intelligence Intern | JMedia Corporation (Remote – US-based) | May 2025 – Present
+                    - Artificial Intelligence Intern | DIRO | October 2025 - January 2026
+                      Identified operational bottlenecks through stakeholder discussions and workflow analysis, translating
+                      ambiguous requirements into a scoped product brief for an AI-assisted automation solution.
+                      Led development of an LLM-powered document intelligence tool, defining feature scope and iterating based on
+                      direct user feedback to improve usability and output reliability.
+                      Managed cross-functional collaboration with product, engineering, and testing teams, making trade-offs
+                      between reliability, implementation effort, and delivery timelines under evolving requirements.
+                      Defined success metrics and release priorities for 2 internal analytics dashboards tracking 1,000+ sessions,
+                      surfaced error patterns and usage drop-offs that improved debugging efficiency.
+                      Drove development of a synthetic data pipeline (100+ documents) to unblock model testing and validation,
+                      aligning with engineering on coverage requirements and edge cases.
+                    - Artificial Intelligence Intern | JMedia Corporation (Remote – US-based) | May – August 2025
                       Built and deployed production-grade ML models using TensorFlow, PyTorch, and scikit-learn across internal AI tools.
                       Designed secure and reproducible ML pipelines for preprocessing, training, validation, and deployment.
                       Collaborated with a cross-continental AI team to ensure alignment with business goals and technical standards.
